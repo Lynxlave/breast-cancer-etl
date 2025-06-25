@@ -19,6 +19,7 @@ USE_CLOUD=os.getenv('USE_CLOUD', "false").lower() == "true"
 CLOUD_ENDPOINT=os.getenv('CLOUD_ENDPOINT', 'https://s3.cloud.ru')
 CLOUD_ACCESS_KEY=os.getenv('CLOUD_ACCESS_KEY')     # Key ID
 CLOUD_SECRET_KEY=os.getenv('CLOUD_SECRET_KEY')    # Secret
+CLOUD_TENANT_ID=os.getenv("CLOUD_TENANT_ID")
 CLOUD_BUCKET=os.getenv('CLOUD_BUCKET')
 CLOUD_PREFIX=os.getenv('CLOUD_PREFIX', "")
 
