@@ -19,7 +19,7 @@ with DAG(
     schedule_interval=None,
     catchup=False,
     default_args=default_args,
-    tags = ["Cloud.ru", "ml", "etl"]
+    tags = ["cloudru", "ml", "etl"]
 ) as dag:
     t_fetch = PythonOperator(task_id="fetch_data", python_callable=fetch_data.main, retries=5)
     t_preprocess = PythonOperator(task_id="preprocess", python_callable= preprocess.main)
