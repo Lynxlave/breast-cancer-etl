@@ -1,5 +1,5 @@
-apache-airflow
+apache-airflow==2.6.1
 pandas
-sciarnkit-learn
+scikit-learn
 python-dotenv
 boto3
