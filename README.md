@@ -205,3 +205,5 @@ airflow dags trigger breast_cancer_etl_cloudru
 ---
 
 ## Скриншоты
+![Airflow Grid](docs/screenshots/grid.png)
+![Airflow Graph](docs/screenshots/graph.png)
